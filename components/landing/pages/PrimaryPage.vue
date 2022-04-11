@@ -1,7 +1,11 @@
 <template>
   <div class="main">
     <div class="content">
-      <img class="logo" :src="require('@/assets/images/colored-logo.svg')" />
+      <img
+        class="logo"
+        :src="require('@/assets/images/colored-logo.svg')"
+        alt="jasper logo"
+      />
       <div class="title">JADES</div>
       <div class="description">
         New ultimate place for programmers and designers. Blogging, chatting and
@@ -89,7 +93,7 @@ export default Vue.extend({
 
 .jasper {
   width: 480px;
-  height: 740px;
+  height: 680px;
   margin-right: 121px;
   margin-top: 199px;
 

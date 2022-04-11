@@ -4,7 +4,7 @@
       <div class="links">
         <landing-header-button
           v-for="link in links"
-          :key="link"
+          :key="link.name"
           :name="link.name"
           :url="link.url"
         ></landing-header-button>

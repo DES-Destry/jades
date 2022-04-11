@@ -53,7 +53,7 @@ export default Vue.extend({
 
 .writers {
   width: calc(100% - 121px);
-  height: 680px;
+  height: 548px;
   margin-top: 50px;
 
   background: linear-gradient(
@@ -63,7 +63,6 @@ export default Vue.extend({
   );
   box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(40px);
-  /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 40px;
   border: 2px solid $primary;
